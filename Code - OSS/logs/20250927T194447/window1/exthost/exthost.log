@@ -1,0 +1,17 @@
+2025-09-27 19:44:49.915 [info] Extension host with pid 14474 started
+2025-09-27 19:44:49.915 [info] Skipping acquiring lock for /home/elliot/.config/Code - OSS/User/workspaceStorage/1e3b3dc6acd77dadfa3a34781c5a080f.
+2025-09-27 19:44:50.062 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-09-27 19:44:50.091 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2025-09-27 19:44:50.713 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-09-27 19:44:50.736 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-09-27 19:44:50.810 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-09-27 19:44:50.925 [info] Eager extensions activated
+2025-09-27 19:44:50.926 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-09-27 19:44:50.928 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-09-27 19:44:50.947 [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: false, activationEvent: 'onStartupFinished'
+2025-09-27 19:44:50.948 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-09-27 19:44:51.029 [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onStartupFinished'
+2025-09-27 19:44:51.563 [error] [ecmel.vscode-html-css] provider FAILED
+2025-09-27 19:44:51.563 [error] undefined
+2025-09-27 19:45:16.903 [info] Extension host terminating: renderer closed the MessagePort
+2025-09-27 19:45:16.923 [info] Extension host with pid 14474 exiting with code 0

@@ -1,0 +1,4 @@
+2025-09-14 19:26:55.109 [info] Started local extension host with pid 127310.
+2025-09-14 19:26:55.156 [info] Started initializing default profile extensions in extensions installation folder. file:///home/elliot/.vscode-oss/extensions
+2025-09-14 19:26:55.349 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/elliot/.vscode-oss/extensions
+2025-09-14 19:26:55.350 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system

@@ -1,0 +1,65 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "838710719411eecb7912d5797c750085a3808e99515979397901adc1f3eefdfe",
+    "telemetry.macMachineId": "06f7544a6faff72a5504a2dab35b5b78506c9a2f4cd1605f1ff57967a76f4fef",
+    "telemetry.devDeviceId": "315b6055-c89d-43ef-820d-6320a94c996a",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [],
+        "emptyWindows": [
+            {
+                "backupFolder": "1758738643744"
+            }
+        ]
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {},
+        "emptyWindows": {
+            "1758738643744": "__default__profile__"
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "backupPath": "/home/elliot/.config/Cursor/Backups/1758738643744",
+            "uiState": {
+                "mode": 1,
+                "x": 10,
+                "y": 42,
+                "width": 945,
+                "height": 1028,
+                "isAgentWindow": false
+            }
+        },
+        "openedWindows": []
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#191919",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "rgba(204, 204, 204, 0.87)",
+            "background": "#191919",
+            "editorBackground": "#191919",
+            "titleBarBackground": "#141414",
+            "titleBarBorder": "rgba(255, 255, 255, 0.05)",
+            "activityBarBackground": "#141414",
+            "sideBarBackground": "#141414",
+            "sideBarBorder": "rgba(255, 255, 255, 0.05)",
+            "statusBarBackground": "#141414",
+            "statusBarBorder": "rgba(255, 255, 255, 0.05)",
+            "statusBarNoFolderBackground": "#141414"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 0,
+            "sideBarWidth": 0,
+            "auxiliarySideBarWidth": 400,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    }
+}

@@ -1,0 +1,6 @@
+2025-09-24 19:36:24.851 [info] Getting Manifest... formulahendry.code-runner
+2025-09-24 19:36:25.681 [info] Installing extension: formulahendry.code-runner {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":true,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/elliot/.vscode-oss/extensions/extensions.json","path":"/home/elliot/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.104.1","date":"2025-09-18T16:13:21.262Z"}}
+2025-09-24 19:36:28.017 [info] Extension signature verification result for formulahendry.code-runner: Success. Executed: true. Duration: 1041ms.
+2025-09-24 19:36:28.147 [info] Extracted extension to file:///home/elliot/.vscode-oss/extensions/formulahendry.code-runner-0.12.2-universal: formulahendry.code-runner
+2025-09-24 19:36:28.158 [info] Renamed to /home/elliot/.vscode-oss/extensions/formulahendry.code-runner-0.12.2-universal
+2025-09-24 19:36:28.175 [info] Extension installed successfully: formulahendry.code-runner vscode-userdata:/home/elliot/.vscode-oss/extensions/extensions.json

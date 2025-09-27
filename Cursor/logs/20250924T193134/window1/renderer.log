@@ -1,0 +1,315 @@
+2025-09-24 19:31:35.007 [warning] Missing property "cppConfig" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-09-24 19:31:35.008 [warning] Missing property "rpcFileLoggerFolder" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-09-24 19:31:35.012 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.datawrangler' wants API proposal 'debugFocus' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-09-24 19:31:35.012 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-copilot-data-analysis' wants API proposal 'chatVariableResolver' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-09-24 19:31:35.012 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-09-24 19:31:35.012 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-python-envs' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-09-24 19:31:35.013 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'chatReadonlyPromptReference' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-09-24 19:31:35.013 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-09-24 19:31:35.013 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-09-24 19:31:35.013 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'chatParticipant' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-09-24 19:31:35.013 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'languageModels' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-09-24 19:31:35.128 [warning] Creation of workbench contribution 'workbench.contrib.treeSitterTokenizationInstantiator' took 28ms.
+2025-09-24 19:31:35.417 [info] Started local extension host with pid 62008.
+2025-09-24 19:31:38.439 [info] [perf] Render performance baseline is 40ms
+2025-09-24 19:31:38.689 [error] Error fetching user privacy mode: [unauthenticated] Error
+2025-09-24 19:31:38.690 [error] [unauthenticated] Error: ConnectError: [unauthenticated] Error
+    at t (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4918:345377)
+    at async Object.getUserPrivacyMode (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:580:388882)
+    at async Lur.fetchUserPrivacyMode (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:6965:10611)
+    at async Lur.refreshPrivacyMode (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:6965:10336) [unauthenticated] Error
+2025-09-24 19:31:38.698 [error] [unauthenticated] Error: ConnectError: [unauthenticated] Error
+    at t (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4918:345377)
+    at async Object.availableModels (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:580:388882)
+    at async Kpr.keepCppModelStateUpdated (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:7078:15984)
+    at async Kpr.loadCppConfigIncludingHandlingProAccess (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:7086:1259) [unauthenticated] Error
+2025-09-24 19:31:38.701 [error] [unauthenticated] Error: ConnectError: [unauthenticated] Error
+    at t (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4918:345377)
+    at async Object.getDefaultModelNudgeData (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:580:388882)
+    at async xjs.performDefaultModelRequest (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:5502:20414) [unauthenticated] Error
+2025-09-24 19:31:38.714 [error] [unauthenticated] Error: ConnectError: [unauthenticated] Error
+    at t (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4918:345377)
+    at async Object.availableDocs (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:580:388882)
+    at async xjs.availableDocs (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:5502:18462)
+    at async Object.fn (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:7109:55045) [unauthenticated] Error
+2025-09-24 19:31:47.115 [error] [unauthenticated] Error: ConnectError: [unauthenticated] Error
+    at t (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4918:345377)
+    at async Object.availableDocs (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:580:388882)
+    at async xjs.availableDocs (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:5502:18462)
+    at async Object.fn (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4581:67877) [unauthenticated] Error
+2025-09-24 19:31:47.122 [error] [unauthenticated] Error: ConnectError: [unauthenticated] Error
+    at t (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4918:345377)
+    at async Object.getEmail (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:580:388882)
+    at async Lur.getEmailAndSignUpType (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:6965:34126) [unauthenticated] Error
+2025-09-24 19:32:04.518 [info] [Extensions]: Checking for updates. Reason: Product update
+2025-09-24 19:32:08.210 [error] [unauthenticated] Error: ConnectError: [unauthenticated] Error
+    at t (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4918:345377)
+    at async Object.availableDocs (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:580:388882)
+    at async xjs.availableDocs (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:5502:18462)
+    at async Object.fn (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4581:67877) [unauthenticated] Error
+2025-09-24 19:32:20.412 [info] Starting polling for manual login link
+2025-09-24 19:32:20.612 [info] Manual login polling iteration
+2025-09-24 19:32:20.814 [info] Manual login polling iteration
+2025-09-24 19:32:21.012 [info] Manual login polling iteration
+2025-09-24 19:32:21.212 [info] Manual login polling iteration
+2025-09-24 19:32:21.409 [info] Starting polling for manual login link
+2025-09-24 19:32:21.609 [info] Manual login polling iteration
+2025-09-24 19:32:21.809 [info] Manual login polling iteration
+2025-09-24 19:32:22.009 [info] Manual login polling iteration
+2025-09-24 19:32:22.209 [info] Manual login polling iteration
+2025-09-24 19:32:22.409 [info] Manual login polling iteration
+2025-09-24 19:32:22.609 [info] Manual login polling iteration
+2025-09-24 19:32:22.810 [info] Manual login polling iteration
+2025-09-24 19:32:23.010 [info] Manual login polling iteration
+2025-09-24 19:32:23.210 [info] Manual login polling iteration
+2025-09-24 19:32:23.409 [info] Manual login polling iteration
+2025-09-24 19:32:23.610 [info] Manual login polling iteration
+2025-09-24 19:32:23.810 [info] Manual login polling iteration
+2025-09-24 19:32:24.010 [info] Manual login polling iteration
+2025-09-24 19:32:24.209 [info] Manual login polling iteration
+2025-09-24 19:32:24.409 [info] Manual login polling iteration
+2025-09-24 19:32:24.610 [info] Manual login polling iteration
+2025-09-24 19:32:24.809 [info] Manual login polling iteration
+2025-09-24 19:32:25.010 [info] Manual login polling iteration
+2025-09-24 19:32:25.210 [info] Manual login polling iteration
+2025-09-24 19:32:25.410 [info] Manual login polling iteration
+2025-09-24 19:32:25.610 [info] Manual login polling iteration
+2025-09-24 19:32:25.810 [info] Manual login polling iteration
+2025-09-24 19:32:26.010 [info] Manual login polling iteration
+2025-09-24 19:32:26.210 [info] Manual login polling iteration
+2025-09-24 19:32:26.410 [info] Manual login polling iteration
+2025-09-24 19:32:26.610 [info] Manual login polling iteration
+2025-09-24 19:32:26.711 [info] Starting polling for manual login link
+2025-09-24 19:32:26.909 [info] Manual login polling iteration
+2025-09-24 19:32:27.110 [info] Manual login polling iteration
+2025-09-24 19:32:27.309 [info] Manual login polling iteration
+2025-09-24 19:32:27.509 [info] Manual login polling iteration
+2025-09-24 19:32:27.710 [info] Manual login polling iteration
+2025-09-24 19:32:27.854 [info] Starting polling for manual login link
+2025-09-24 19:32:28.055 [info] Manual login polling iteration
+2025-09-24 19:32:28.254 [info] Manual login polling iteration
+2025-09-24 19:32:28.454 [info] Manual login polling iteration
+2025-09-24 19:32:28.654 [info] Manual login polling iteration
+2025-09-24 19:32:28.854 [info] Manual login polling iteration
+2025-09-24 19:32:29.054 [info] Manual login polling iteration
+2025-09-24 19:32:29.254 [info] Manual login polling iteration
+2025-09-24 19:32:29.454 [info] Manual login polling iteration
+2025-09-24 19:32:29.654 [info] Manual login polling iteration
+2025-09-24 19:32:29.854 [info] Manual login polling iteration
+2025-09-24 19:32:30.054 [info] Manual login polling iteration
+2025-09-24 19:32:30.256 [info] Manual login polling iteration
+2025-09-24 19:32:30.454 [info] Manual login polling iteration
+2025-09-24 19:32:30.654 [info] Manual login polling iteration
+2025-09-24 19:32:30.854 [info] Manual login polling iteration
+2025-09-24 19:32:31.054 [info] Manual login polling iteration
+2025-09-24 19:32:31.254 [info] Manual login polling iteration
+2025-09-24 19:32:31.454 [info] Manual login polling iteration
+2025-09-24 19:32:31.655 [info] Manual login polling iteration
+2025-09-24 19:32:31.854 [info] Manual login polling iteration
+2025-09-24 19:32:32.054 [info] Manual login polling iteration
+2025-09-24 19:32:32.254 [info] Manual login polling iteration
+2025-09-24 19:32:32.455 [info] Manual login polling iteration
+2025-09-24 19:32:32.654 [info] Manual login polling iteration
+2025-09-24 19:32:32.855 [info] Manual login polling iteration
+2025-09-24 19:32:33.054 [info] Manual login polling iteration
+2025-09-24 19:32:33.254 [info] Manual login polling iteration
+2025-09-24 19:32:33.454 [info] Manual login polling iteration
+2025-09-24 19:32:33.654 [info] Manual login polling iteration
+2025-09-24 19:32:33.855 [info] Manual login polling iteration
+2025-09-24 19:32:34.054 [info] Manual login polling iteration
+2025-09-24 19:32:34.255 [info] Manual login polling iteration
+2025-09-24 19:32:34.455 [info] Manual login polling iteration
+2025-09-24 19:32:34.654 [info] Manual login polling iteration
+2025-09-24 19:32:34.854 [info] Manual login polling iteration
+2025-09-24 19:32:35.054 [info] Manual login polling iteration
+2025-09-24 19:32:35.254 [info] Manual login polling iteration
+2025-09-24 19:32:35.454 [info] Manual login polling iteration
+2025-09-24 19:32:35.654 [info] Manual login polling iteration
+2025-09-24 19:32:35.661 [info] Starting polling for manual login link
+2025-09-24 19:32:35.861 [info] Manual login polling iteration
+2025-09-24 19:32:36.061 [info] Manual login polling iteration
+2025-09-24 19:32:36.262 [info] Manual login polling iteration
+2025-09-24 19:32:36.461 [info] Manual login polling iteration
+2025-09-24 19:32:36.661 [info] Manual login polling iteration
+2025-09-24 19:32:36.861 [info] Manual login polling iteration
+2025-09-24 19:32:37.061 [info] Manual login polling iteration
+2025-09-24 19:32:37.261 [info] Manual login polling iteration
+2025-09-24 19:32:37.461 [info] Manual login polling iteration
+2025-09-24 19:32:37.661 [info] Manual login polling iteration
+2025-09-24 19:32:37.861 [info] Manual login polling iteration
+2025-09-24 19:32:38.061 [info] Manual login polling iteration
+2025-09-24 19:32:38.262 [info] Manual login polling iteration
+2025-09-24 19:32:38.461 [info] Manual login polling iteration
+2025-09-24 19:32:38.662 [info] Manual login polling iteration
+2025-09-24 19:32:38.862 [info] Manual login polling iteration
+2025-09-24 19:32:39.061 [info] Manual login polling iteration
+2025-09-24 19:32:39.262 [info] Manual login polling iteration
+2025-09-24 19:32:39.462 [info] Manual login polling iteration
+2025-09-24 19:32:39.662 [info] Manual login polling iteration
+2025-09-24 19:32:39.862 [info] Manual login polling iteration
+2025-09-24 19:32:40.062 [info] Manual login polling iteration
+2025-09-24 19:32:40.262 [info] Manual login polling iteration
+2025-09-24 19:32:40.461 [info] Manual login polling iteration
+2025-09-24 19:32:40.661 [info] Manual login polling iteration
+2025-09-24 19:32:40.861 [info] Manual login polling iteration
+2025-09-24 19:32:41.061 [info] Manual login polling iteration
+2025-09-24 19:32:41.261 [info] Manual login polling iteration
+2025-09-24 19:32:41.461 [info] Manual login polling iteration
+2025-09-24 19:32:41.661 [info] Manual login polling iteration
+2025-09-24 19:32:41.861 [info] Manual login polling iteration
+2025-09-24 19:32:42.061 [info] Manual login polling iteration
+2025-09-24 19:32:42.262 [info] Manual login polling iteration
+2025-09-24 19:32:42.462 [info] Manual login polling iteration
+2025-09-24 19:32:42.661 [info] Manual login polling iteration
+2025-09-24 19:32:42.862 [info] Manual login polling iteration
+2025-09-24 19:32:43.062 [info] Manual login polling iteration
+2025-09-24 19:32:43.262 [info] Manual login polling iteration
+2025-09-24 19:32:43.462 [info] Manual login polling iteration
+2025-09-24 19:32:43.662 [info] Manual login polling iteration
+2025-09-24 19:32:43.862 [info] Manual login polling iteration
+2025-09-24 19:32:44.062 [info] Manual login polling iteration
+2025-09-24 19:32:44.262 [info] Manual login polling iteration
+2025-09-24 19:32:44.462 [info] Manual login polling iteration
+2025-09-24 19:32:44.662 [info] Manual login polling iteration
+2025-09-24 19:32:44.862 [info] Manual login polling iteration
+2025-09-24 19:32:45.062 [info] Manual login polling iteration
+2025-09-24 19:32:45.261 [info] Manual login polling iteration
+2025-09-24 19:32:45.461 [info] Manual login polling iteration
+2025-09-24 19:32:45.661 [info] Manual login polling iteration
+2025-09-24 19:32:45.862 [info] Manual login polling iteration
+2025-09-24 19:32:46.062 [info] Manual login polling iteration
+2025-09-24 19:32:46.261 [info] Manual login polling iteration
+2025-09-24 19:32:46.461 [info] Manual login polling iteration
+2025-09-24 19:32:46.661 [info] Manual login polling iteration
+2025-09-24 19:32:46.861 [info] Manual login polling iteration
+2025-09-24 19:32:47.062 [info] Manual login polling iteration
+2025-09-24 19:32:47.262 [info] Manual login polling iteration
+2025-09-24 19:32:47.462 [info] Manual login polling iteration
+2025-09-24 19:32:47.662 [info] Manual login polling iteration
+2025-09-24 19:32:47.862 [info] Manual login polling iteration
+2025-09-24 19:32:48.062 [info] Manual login polling iteration
+2025-09-24 19:32:48.262 [info] Manual login polling iteration
+2025-09-24 19:32:48.462 [info] Manual login polling iteration
+2025-09-24 19:32:48.661 [info] Manual login polling iteration
+2025-09-24 19:32:48.862 [info] Manual login polling iteration
+2025-09-24 19:32:49.061 [info] Manual login polling iteration
+2025-09-24 19:32:49.261 [info] Manual login polling iteration
+2025-09-24 19:32:49.461 [info] Manual login polling iteration
+2025-09-24 19:32:49.662 [info] Manual login polling iteration
+2025-09-24 19:32:49.862 [info] Manual login polling iteration
+2025-09-24 19:32:50.061 [info] Manual login polling iteration
+2025-09-24 19:32:50.261 [info] Manual login polling iteration
+2025-09-24 19:32:50.462 [info] Manual login polling iteration
+2025-09-24 19:32:50.662 [info] Manual login polling iteration
+2025-09-24 19:32:50.862 [info] Manual login polling iteration
+2025-09-24 19:32:51.062 [info] Manual login polling iteration
+2025-09-24 19:32:51.261 [info] Manual login polling iteration
+2025-09-24 19:32:51.461 [info] Manual login polling iteration
+2025-09-24 19:32:51.737 [info] Manual login polling iteration
+2025-09-24 19:32:51.863 [info] Manual login polling iteration
+2025-09-24 19:32:52.061 [info] Manual login polling iteration
+2025-09-24 19:32:52.261 [info] Manual login polling iteration
+2025-09-24 19:32:52.461 [info] Manual login polling iteration
+2025-09-24 19:32:52.661 [info] Manual login polling iteration
+2025-09-24 19:32:52.861 [info] Manual login polling iteration
+2025-09-24 19:32:53.061 [info] Manual login polling iteration
+2025-09-24 19:33:05.730 [error] Illegal value for lineNumber: Error: Illegal value for lineNumber
+    at nN.getLineContent (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:283:5426)
+    at Kpr.shouldTabInsteadOfAccepting (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:7078:24920)
+    at Kpr.updateShouldAcceptTabContextKey (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:7086:5585)
+    at KCt.value (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:7078:11625)
+    at we._deliver (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:2962)
+    at we._deliverQueue (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:3053)
+    at we.fire (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:3390)
+    at zw.change (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:438:1125)
+    at Kpr.clearSuggestions (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:7085:14371)
+    at Kpr.rejectAndResetAllCppSuggestions (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:7085:12797)
+    at Kpr.continueModelChangeListener (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:7080:843)
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:7082:775
+    at KCt.value (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:280:7580)
+    at we._deliver (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:2962)
+    at we._deliverQueue (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:3053)
+    at we.fire (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:3390)
+    at WIo.endDeferredEmit (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:289:20844)
+    at nN.pushEditOperations (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:287:867)
+    at yxt._innerExecuteCommands (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:290:5492)
+    at yxt.executeCommands (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:290:4910)
+    at bds._executeEditOperation (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:289:46848)
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:290:3234
+    at bds._executeEdit (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:290:1061)
+    at bds.executeCommands (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:290:3211)
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:291:3690
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:291:4727
+    at Object.batchChanges (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:293:18521)
+    at $To._withViewEventsCollector (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:291:4646)
+    at $To._executeCursorEdit (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:291:2986)
+    at $To.executeCommands (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:291:3655)
+    at _S.executeCommands (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:293:11178)
+    at e.runCoreEditingCommand (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:92:37456)
+    at e.runEditorCommand (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:92:35913)
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:55:11973
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:55:11882
+    at Lwr.invokeFunction (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:5674:960)
+    at _S.invokeWithinContext (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:291:17313)
+    at nbr.runEditorCommand (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:55:11807)
+    at e.runCommand (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:55:11920)
+    at handler (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:55:10321)
+    at Lwr.invokeFunction (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:5674:960)
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:5483:3436
+    at yos (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:52:44313)
+    at A4 (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:52:44274)
+    at VGs._tryExecuteCommand (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:5483:3289)
+    at VGs.executeCommand (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:5483:2839)
+    at i6t._doDispatch (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:5466:22734)
+    at i6t._dispatch (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:5466:19621)
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:5467:4458 Illegal value for lineNumber
+2025-09-24 19:33:05.733 [error] Illegal value for lineNumber: Error: Illegal value for lineNumber
+    at nN.getLineContent (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:283:5426)
+    at LRe._getRangeOfSelectionUnlessWhitespaceEnclosed (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4762:25593)
+    at LRe.update (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4762:26402)
+    at KCt.value (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4762:25125)
+    at we._deliver (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:2962)
+    at we._deliverQueue (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:3053)
+    at we.fire (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:3390)
+    at zw.change (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:438:1125)
+    at Kpr.clearSuggestions (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:7085:14371)
+    at Kpr.rejectAndResetAllCppSuggestions (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:7085:12797)
+    at Kpr.continueModelChangeListener (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:7080:843)
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:7082:775
+    at KCt.value (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:280:7580)
+    at we._deliver (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:2962)
+    at we._deliverQueue (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:3053)
+    at we.fire (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:49:3390)
+    at WIo.endDeferredEmit (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:289:20844)
+    at nN.pushEditOperations (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:287:867)
+    at yxt._innerExecuteCommands (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:290:5492)
+    at yxt.executeCommands (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:290:4910)
+    at bds._executeEditOperation (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:289:46848)
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:290:3234
+    at bds._executeEdit (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:290:1061)
+    at bds.executeCommands (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:290:3211)
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:291:3690
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:291:4727
+    at Object.batchChanges (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:293:18521)
+    at $To._withViewEventsCollector (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:291:4646)
+    at $To._executeCursorEdit (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:291:2986)
+    at $To.executeCommands (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:291:3655)
+    at _S.executeCommands (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:293:11178)
+    at e.runCoreEditingCommand (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:92:37456)
+    at e.runEditorCommand (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:92:35913)
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:55:11973
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:55:11882
+    at Lwr.invokeFunction (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:5674:960)
+    at _S.invokeWithinContext (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:291:17313)
+    at nbr.runEditorCommand (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:55:11807)
+    at e.runCommand (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:55:11920)
+    at handler (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:55:10321)
+    at Lwr.invokeFunction (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:5674:960)
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:5483:3436
+    at yos (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:52:44313)
+    at A4 (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:52:44274)
+    at VGs._tryExecuteCommand (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:5483:3289)
+    at VGs.executeCommand (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:5483:2839)
+    at i6t._doDispatch (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:5466:22734)
+    at i6t._dispatch (vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:5466:19621)
+    at vscode-file://vscode-app/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:5467:4458 Illegal value for lineNumber

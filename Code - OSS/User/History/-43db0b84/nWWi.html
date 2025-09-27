@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apresentação Profissional do Meu Sistema Operativo</title>
+    <style>
+        /* Reset básico */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #1f2128;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+
+        header {
+            text-align: center;
+            padding: 50px 20px 30px 20px;
+            background: linear-gradient(135deg, #4b6cb7, #182848);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        header img {
+            max-width: 300px;
+            height: auto;
+            margin-top: 20px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        section {
+            margin-bottom: 60px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 20px;
+        }
+
+        section img {
+            flex: 1 1 300px;
+            max-width: 370px;
+            border-radius: 12px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+            transition: transform 0.3s ease;
+        }
+
+        section img:hover {
+            transform: scale(1.05);
+        }
+
+        section div {
+            flex: 2 1 500px;
+        }
+
+        section h2 {
+            color: #4b9ce2;
+            margin-bottom: 15px;
+        }
+
+        section p {
+            font-size: 1rem;
+            color: #d1d1d1;
+        }
+
+        hr {
+            border: 0;
+            height: 2px;
+            background: #4b9ce2;
+            margin: 40px auto;
+            width: 60%;
+            border-radius: 2px;
+        }
+
+        @media (max-width: 768px) {
+            section {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            section div {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Apresentação do Meu Sistema Operativo</h1>
+        <img src="arch.png" alt="Logo Arch Linux">
+    </header>
+    <main>
+        <section>
+            <img src="archl.jpg" alt="Arch Linux">
+            <div>
+                <h2>Sistema Operativo</h2>
+                <p>Arch Linux é uma distribuição minimalista e personalizável. Segue a filosofia KISS e usa pacman como gestor de pacotes. É rolling release, ideal para quem quer controlo total do sistema.</p>
+            </div>
+        </section>
+        <hr>
+        <section>
+            <img src="lb.png" alt="Librewolf">
+            <div>
+                <h2>O Meu Browser Preferido</h2>
+                <p>Librewolf é um browser de código aberto inspirado no Firefox, mas otimizado para privacidade e leveza. Rápido, configurável e ideal para quem valoriza eficiência e controlo.</p>
+            </div>
+        </section>
+        <hr>
+        <section>
+            <img src="terminal.png" alt="Terminal Kitty">
+            <div>
+                <h2>O Terminal que Uso</h2>
+                <p>Kitty é um terminal moderno e potente. Suporta gráficos, múltiplas janelas, e personalização avançada. É perfeito para produtividade e trabalho eficiente no Linux.</p>
+            </div>
+        </section>
+        <hr>
+        <section>
+            <img src="dolphin.png" alt="Dolphin File Manager">
+            <div>
+                <h2>O Meu Explorador de Ficheiros</h2>
+                <p>Dolphin é rápido, intuitivo e cheio de funcionalidades. Permite abas, visualização avançada, integração com rede e personalização. Ideal para gerir e organizar ficheiros com facilidade.</p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

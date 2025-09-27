@@ -1,0 +1,78 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "f4576ca23744efcf4f03a970a5e662f7c78094968f5b213554288ea7d4aece14",
+    "telemetry.devDeviceId": "315b6055-c89d-43ef-820d-6320a94c996a",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/elliot/vscode"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/elliot/vscode": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/elliot/vscode",
+            "backupPath": "/home/elliot/.config/Code - OSS/Backups/8744bc8b9abc6259d659c44275e4caad",
+            "uiState": {
+                "mode": 0,
+                "x": 0,
+                "y": 0,
+                "width": 960,
+                "height": 1048
+            }
+        },
+        "openedWindows": []
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#403728",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#ffffff",
+            "background": "#403728",
+            "editorBackground": "#403728",
+            "titleBarBackground": "#403728",
+            "titleBarBorder": "rgba(0, 0, 0, 0)",
+            "activityBarBackground": "#524229",
+            "activityBarBorder": "rgba(0, 0, 0, 0)",
+            "sideBarBackground": "#524229",
+            "sideBarBorder": "rgba(0, 0, 0, 0)",
+            "statusBarBackground": "#403728",
+            "statusBarBorder": "rgba(0, 0, 0, 0)",
+            "statusBarNoFolderBackground": "#403728",
+            "windowBorder": "rgba(0, 0, 0, 0)"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 170,
+            "auxiliaryBarWidth": 0,
+            "statusBarHeight": 0,
+            "windowBorder": false
+        }
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 170,
+            "auxiliaryBarWidth": 300,
+            "workspaces": {
+                "1e3b3dc6acd77dadfa3a34781c5a080f": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    }
+}

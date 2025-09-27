@@ -1,0 +1,28 @@
+2025-09-24 19:30:48.813 [info] [main] Log level: Info
+2025-09-24 19:30:48.813 [info] [main] Validating found git in: "git"
+2025-09-24 19:30:48.813 [info] [main] Using git "2.51.0" from "git"
+2025-09-24 19:30:48.813 [info] [Model][doInitialScan] Initial repository scan started
+2025-09-24 19:30:48.813 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-09-24 19:30:48.813 [info] > git config --get remote.origin.url [32ms]
+2025-09-24 19:30:49.575 [info] > git remote get-url --push origin [108ms]
+2025-09-24 19:30:49.575 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-09-24 19:30:49.621 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [31ms]
+2025-09-24 19:30:49.621 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-09-24 19:30:49.648 [info] > git rev-parse --verify origin/main [2ms]
+2025-09-24 19:30:49.648 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-09-24 19:30:49.654 [info] > git rev-parse --verify origin/master [1ms]
+2025-09-24 19:30:49.654 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-09-24 19:30:49.662 [info] > git rev-parse --verify origin/develop [1ms]
+2025-09-24 19:30:49.662 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-09-24 19:30:49.669 [info] > git branch -r [1ms]
+2025-09-24 19:30:49.669 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-09-24 19:30:49.676 [info] > git config --get init.defaultBranch [1ms]
+2025-09-24 19:30:57.787 [info] > git config --global user.name [1ms]
+2025-09-24 19:30:57.793 [info] > git config --global user.email [1ms]
+2025-09-24 19:30:57.793 [info] [main] Stored git author name in global state:  <>

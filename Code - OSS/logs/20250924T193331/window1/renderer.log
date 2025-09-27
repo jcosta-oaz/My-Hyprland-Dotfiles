@@ -1,0 +1,472 @@
+2025-09-24 19:33:31.993 [info] Started local extension host with pid 64288.
+2025-09-24 19:33:32.038 [error] Extension 'ms-python.debugpy CANNOT USE these API proposals 'portsAttributes, debugVisualization, contribViewsWelcome'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2025-09-24 19:33:32.039 [error] Extension 'ms-python.python CANNOT USE these API proposals 'contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, codeActionAI, notebookReplDocument, notebookVariableProvider'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2025-09-24 19:33:32.075 [error] [ms-python.python]: editor/content is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribEditorContentMenu"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+2025-09-24 19:33:34.793 [info] [perf] Render performance baseline is 38ms
+2025-09-24 19:33:35.849 [error] Error while getting the latest version for the extension anysphere.pyright. SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Open VSX Registry</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
+
+    <!-- Eclipse Cookie Consent -->
+    <link rel="stylesheet" type="text/css"
+        href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
+    <script
+        src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js">
+    </script>
+    <style>
+        a.cc-btn.cc-allow {
+            background-color: #c160ef;
+        }
+        a.cc-btn.cc-allow:hover, a.cc-btn.cc-allow:focus {
+            background-color: #444;
+        }
+        .cc-revoke {
+            display: none !important;
+        }
+        @media (prefers-color-scheme: dark) {
+          body {
+            background-color: #121212;
+          }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe title="Google Tag Manager" src="https://www.googletagmanager.com/ns.html?id=GTM-5WLCZXC" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="main"></div>
+    <script src='/bundle.js' ></script>
+</body>
+
+</html>
+
+2025-09-24 19:33:36.052 [error] Error while getting the latest version for the extension ms-python.python. SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Open VSX Registry</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
+
+    <!-- Eclipse Cookie Consent -->
+    <link rel="stylesheet" type="text/css"
+        href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
+    <script
+        src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js">
+    </script>
+    <style>
+        a.cc-btn.cc-allow {
+            background-color: #c160ef;
+        }
+        a.cc-btn.cc-allow:hover, a.cc-btn.cc-allow:focus {
+            background-color: #444;
+        }
+        .cc-revoke {
+            display: none !important;
+        }
+        @media (prefers-color-scheme: dark) {
+          body {
+            background-color: #121212;
+          }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe title="Google Tag Manager" src="https://www.googletagmanager.com/ns.html?id=GTM-5WLCZXC" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="main"></div>
+    <script src='/bundle.js' ></script>
+</body>
+
+</html>
+
+2025-09-24 19:33:36.184 [error] Error while getting the latest version for the extension ecmel.vscode-html-css. SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Open VSX Registry</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
+
+    <!-- Eclipse Cookie Consent -->
+    <link rel="stylesheet" type="text/css"
+        href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
+    <script
+        src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js">
+    </script>
+    <style>
+        a.cc-btn.cc-allow {
+            background-color: #c160ef;
+        }
+        a.cc-btn.cc-allow:hover, a.cc-btn.cc-allow:focus {
+            background-color: #444;
+        }
+        .cc-revoke {
+            display: none !important;
+        }
+        @media (prefers-color-scheme: dark) {
+          body {
+            background-color: #121212;
+          }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe title="Google Tag Manager" src="https://www.googletagmanager.com/ns.html?id=GTM-5WLCZXC" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="main"></div>
+    <script src='/bundle.js' ></script>
+</body>
+
+</html>
+
+2025-09-24 19:33:36.366 [error] Error while getting the latest version for the extension ms-python.debugpy. SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Open VSX Registry</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
+
+    <!-- Eclipse Cookie Consent -->
+    <link rel="stylesheet" type="text/css"
+        href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
+    <script
+        src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js">
+    </script>
+    <style>
+        a.cc-btn.cc-allow {
+            background-color: #c160ef;
+        }
+        a.cc-btn.cc-allow:hover, a.cc-btn.cc-allow:focus {
+            background-color: #444;
+        }
+        .cc-revoke {
+            display: none !important;
+        }
+        @media (prefers-color-scheme: dark) {
+          body {
+            background-color: #121212;
+          }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe title="Google Tag Manager" src="https://www.googletagmanager.com/ns.html?id=GTM-5WLCZXC" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="main"></div>
+    <script src='/bundle.js' ></script>
+</body>
+
+</html>
+
+2025-09-24 19:33:36.571 [error] Error while getting the latest version for the extension esbenp.prettier-vscode. SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Open VSX Registry</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
+
+    <!-- Eclipse Cookie Consent -->
+    <link rel="stylesheet" type="text/css"
+        href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
+    <script
+        src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js">
+    </script>
+    <style>
+        a.cc-btn.cc-allow {
+            background-color: #c160ef;
+        }
+        a.cc-btn.cc-allow:hover, a.cc-btn.cc-allow:focus {
+            background-color: #444;
+        }
+        .cc-revoke {
+            display: none !important;
+        }
+        @media (prefers-color-scheme: dark) {
+          body {
+            background-color: #121212;
+          }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe title="Google Tag Manager" src="https://www.googletagmanager.com/ns.html?id=GTM-5WLCZXC" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="main"></div>
+    <script src='/bundle.js' ></script>
+</body>
+
+</html>
+
+2025-09-24 19:34:44.567 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:34:46.113 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:34:47.144 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:34:48.293 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:34:50.150 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:35:29.576 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:36:28.203 [error] [ms-python.python]: editor/content is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribEditorContentMenu"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+2025-09-24 19:41:05.643 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:41:10.223 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:42:41.888 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:43:13.403 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:43:25.836 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:44:59.117 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:45:41.195 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:46:03.443 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:46:38.954 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:47:04.144 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:47:12.165 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:47:13.213 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:47:14.578 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:47:15.867 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:47:16.869 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:47:25.711 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:48:27.042 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:48:31.462 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:48:50.046 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:49:27.569 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:49:29.286 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:49:30.496 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:49:32.155 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:49:34.091 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:49:35.251 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:49:39.250 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:49:40.550 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:50:09.203 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:50:10.341 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:50:11.456 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:50:12.735 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:50:18.032 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:50:29.274 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:50:30.311 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:50:31.937 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:50:33.189 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:50:34.465 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:50:35.641 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:52:01.380 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:52:08.398 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:52:10.551 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:52:53.192 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:52:54.200 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:53:32.797 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:53:42.420 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:53:45.823 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:54:16.169 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:54:20.249 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:54:21.291 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:54:22.855 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:54:24.738 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:54:35.337 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:54:40.494 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:54:42.773 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:54:46.315 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:54:48.148 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:54:49.592 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:54:50.859 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:54:53.697 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:54:56.679 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:55:18.698 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:55:27.717 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:55:29.283 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:55:35.151 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:55:52.148 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:56:31.116 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:56:32.549 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:56:53.234 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:56:54.538 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:56:56.019 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:57:06.411 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:57:24.151 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:57:25.725 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:57:38.116 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:57:39.140 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:57:40.453 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:57:42.006 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:57:43.798 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:59:57.400 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 19:59:59.215 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:00:04.738 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:00:05.880 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:00:07.301 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:00:08.371 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:00:09.761 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:00:15.126 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:00:17.135 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:00:21.356 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:00:26.516 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:00:28.785 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:00:29.842 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:00:35.580 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:00:36.824 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:00:38.065 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:00:39.237 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:00:55.925 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:00:58.585 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:00:59.628 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:01:00.885 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:01:02.844 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:01:14.526 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:01:18.598 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:01:34.295 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:01:41.103 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:01:42.105 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:01:43.215 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:01:44.289 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:01:45.316 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:01:46.410 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:01:48.177 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:01:50.052 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:01:51.067 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:01:52.402 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:01:53.475 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:01:54.582 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:01:56.851 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:01:57.893 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:01:59.358 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:02:08.860 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:02:13.349 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:02:26.965 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:02:33.184 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:02:34.228 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:02:47.345 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:02:48.982 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:02:52.980 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:02:54.000 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:03:55.075 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:03:57.459 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:04:44.965 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:05:07.007 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:05:11.199 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:05:12.534 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:05:13.775 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:05:15.111 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:05:16.721 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:05:17.781 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:05:18.811 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:05:32.575 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:05:34.604 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:05:35.664 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:05:36.764 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:05:38.241 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:06:06.860 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:06:07.914 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:06:09.200 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:06:10.411 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:06:33.265 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:09:04.629 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:09:05.722 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:09:12.058 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:09:15.245 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:25:59.852 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:26:03.415 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:26:07.814 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:26:08.906 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:26:10.051 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:26:11.077 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:26:22.136 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:26:23.176 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:26:24.514 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:44:53.437 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:44:54.904 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:44:55.930 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:45:00.176 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:45:01.545 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:45:08.573 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:45:17.646 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:45:19.848 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:45:23.029 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:45:24.346 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:45:25.921 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:45:32.422 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:47:52.836 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:47:56.656 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:50:05.559 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:50:24.745 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:50:51.193 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:55:18.832 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:55:20.071 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:55:27.454 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:55:33.850 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:56:24.933 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 20:59:38.990 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 21:01:09.564 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 21:01:13.976 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 21:01:15.150 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 21:01:18.507 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 21:01:19.533 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 21:01:20.710 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 21:01:22.300 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 21:01:23.911 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 21:01:30.429 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 21:01:46.993 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 21:01:50.352 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 21:01:51.860 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 21:01:56.864 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 21:03:02.563 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 21:04:29.243 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 21:08:12.184 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 21:08:13.225 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 21:38:10.211 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 21:38:26.752 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 21:38:30.408 [error] An unknown error occurred. Please consult the log for more details.
+2025-09-24 21:38:54.324 [error] An unknown error occurred. Please consult the log for more details.

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apresentação Profissional - Arch Linux</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background: #121217; /* fundo escuro elegante */
+            color: #fff;
+            scroll-behavior: smooth;
+        }
+
+        header {
+            min-height: 80vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        header h1 {
+            font-size: 2.8rem;
+            margin-bottom: 20px;
+            animation: fadeInUp 1s ease forwards;
+            opacity: 0;
+        }
+
+        header img {
+            width: 200px;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+            animation: fadeInUp 1.5s ease forwards;
+            opacity: 0;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        section {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 30px;
+            margin-bottom: 80px;
+            opacity: 0;
+            transform: translateY(50px);
+            animation: fadeInUp 1s ease forwards;
+        }
+
+        section:nth-child(even) {
+            flex-direction: row-reverse;
+        }
+
+        section img {
+            flex: 1 1 300px;
+            max-width: 300px; /* reduzido */
+            border-radius: 12px;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.4);
+            transition: transform 0.4s ease;
+        }
+
+        section img:hover {
+            transform: scale(1.03);
+        }
+
+        section div {
+            flex: 2 1 500px;
+        }
+
+        section h2 {
+            color: #4ab3f4;
+            margin-bottom: 15px;
+            font-size: 1.9rem;
+        }
+
+        section p {
+            color: #d1d1d1;
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+
+        hr {
+            border: 0;
+            height: 2px;
+            background: #4ab3f4;
+            width: 50%;
+            margin: 50px auto;
+            border-radius: 2px;
+        }
+
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .animate {
+            opacity: 0;
+            transform: translateY(50px);
+            transition: all 0.8s ease-out;
+        }
+
+        .animate.show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        @media (max-width: 900px) {
+            section {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            section div {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Apresentação Profissional do Meu Sistema Operativo</h1>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Archlinux-icon-crystal-64.svg" alt="Logo Arch Linux">
+    </header>
+
+    <main>
+        <section class="animate">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Archlinux-logo-transparent.svg" alt="Arch Linux">
+            <div>
+                <h2>Sistema Operativo</h2>
+                <p>Arch Linux é uma distribuição minimalista e personalizável. Segue a filosofia KISS e usa pacman como gestor de pacotes. É rolling release, ideal para quem quer controlo total do sistema.</p>
+            </div>
+        </section>
+        <hr>
+        <section class="animate">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/7b/LibreWolf_logo.png" alt="Librewolf">
+            <div>
+                <h2>O Meu Browser Preferido</h2>
+                <p>Librewolf é um browser de código aberto inspirado no Firefox, mas otimizado para privacidade e leveza. Rápido, configurável e ideal para quem valoriza eficiência e controlo.</p>
+            </div>
+        </section>
+        <hr>
+        <section class="animate">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/7f/Kitty_Logo.svg" alt="Terminal Kitty">
+            <div>
+                <h2>O Terminal que Uso</h2>
+                <p>Kitty é um terminal moderno e potente. Suporta gráficos, múltiplas janelas, e personalização avançada. É perfeito para produtividade e trabalho eficiente no Linux.</p>
+            </div>
+        </section>
+        <hr>
+        <section class="animate">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/f/f9/Dolphin_File_Manager_Logo.svg" alt="Dolphin File Manager">
+            <div>
+                <h2>O Meu Explorador de Ficheiros</h2>
+                <p>Dolphin é rápido, intuitivo e cheio de funcionalidades. Permite abas, visualização avançada, integração com rede e personalização. Ideal para gerir e organizar ficheiros com facilidade.</p>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        const elements = document.querySelectorAll('.animate');
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if(entry.isIntersecting){
+                    entry.target.classList.add('show');
+                }
+            });
+        }, { threshold: 0.2 });
+
+        elements.forEach(el => observer.observe(el));
+    </script>
+</body>
+</html>
