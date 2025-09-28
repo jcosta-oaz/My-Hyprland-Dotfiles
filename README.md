@@ -19,3 +19,4 @@ You can find the dotfiles of:
 -my vscode
 -fastfetch
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/737c4997-55df-458b-9b9d-92d94670b88d" />
